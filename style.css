@@ -17,8 +17,9 @@ h1 {
 
 input[type="number"] {
     width: 29px;
+    height: 30px;
     padding: 10px;
-    margin: 10px;
+    margin: auto 10px auto auto    ;
     border-radius: 50px;
     transition: 0.3s ease;
 }
@@ -27,17 +28,24 @@ input[type="number"]:hover{
     width: 140px;
 }
 
-button {
+.numero{
+    display: flex;
+    align-items: center;
+    padding: 0 400px 0 180px;
+}
+
+.converter {
     padding: 10px 20px;
+    width: 100px;
+    text-align: center;
     background-color: #007bff;
     color: white;
-    
     border: none;
     border-radius: 50px;
     transition:  0.3s ease;
 }
 
-button:hover {
+.converter:hover {
     background-color: #00fffb;
     box-shadow: 0 0 10px #00fffb;
 }
@@ -46,4 +54,12 @@ button:hover {
     color: white;
     font-size: 18px;
     margin: 50px auto;
+}
+
+.resetar{
+    background-color: #df0000;
+    padding: 10px 20px;
+    width: 100px;
+    border-radius: 50px;
+    color: white;
 }

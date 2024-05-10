@@ -8,9 +8,17 @@
 </head>
 <body>
     <h1>Conversor de Temperatura</h1>
-    <input type="number" id="tempCelsius" placeholder="°C">
-    <button onclick="converter()">Converter</button>
+    <div class="numero" >
+        <input type="number" id="tempCelsius" placeholder="°C"  >
     <div id="resultado"></div>
+    </div>
+    
+    <div class="botoes">
+        <button onclick="converter()" class="converter">Converter</button>
+        
+        <button onclick="resetar()" class="resetar">Resetar</button>
+        
+    </div>
     <script src="script.js"></script> 
 </body>
 </html>

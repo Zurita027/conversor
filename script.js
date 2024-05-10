@@ -8,3 +8,9 @@ function converter() {
         document.getElementById("resultado").innerHTML = "Por favor, insira um valor numérico válido para a temperatura.";
     }
 }
+
+function resetar() {
+    document.getElementById("tempCelsius").value = "";
+    document.getElementById("resultado").innerHTML = "";
+    window.location.reload();
+}
