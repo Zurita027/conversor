@@ -3,16 +3,16 @@ body {
     background-color: #000000;
     text-align: center;
     padding-top: 20px;
+    border: 1px solid white;
+    width: 500px;
+    border-radius: 50px;
+    height: auto;
+    margin: 200px auto;
 }
 
 h1 {
     color: #ffffff;
     text-shadow: 0 0 5px white;
-    transition: tranform 0.3s ease;
-}
-
-h1:hover{
-    color: black;
 }
 
 input[type="number"] {
