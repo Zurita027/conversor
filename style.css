@@ -60,6 +60,13 @@ input[type="number"]:hover{
     background-color: #df0000;
     padding: 10px 20px;
     width: 100px;
+    border: none;
     border-radius: 50px;
     color: white;
+    transition:  0.3s ease;
+}
+
+.limpar:hover{
+    background-color: #ff0000;
+    box-shadow: 0 0 10px #df0000;
 }
