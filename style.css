@@ -7,7 +7,7 @@ body {
     width: 500px;
     border-radius: 50px;
     height: auto;
-    margin: 200px auto;
+    margin: 50px auto;
 }
 
 h1 {
@@ -16,16 +16,12 @@ h1 {
 }
 
 input[type="number"] {
-    width: 29px;
+    width: 50px;
     height: 30px;
     padding: 10px;
     margin: auto 10px auto auto    ;
     border-radius: 50px;
     transition: 0.3s ease;
-}
-
-input[type="number"]:hover{
-    width: 33px;
 }
 
 .numero{
@@ -51,7 +47,7 @@ input[type="number"]:hover{
 }
 
 .botoes{
-    margin: auto auto 20px auto;
+    margin: 20px auto 20px auto;
 }
 
 #resultado {
